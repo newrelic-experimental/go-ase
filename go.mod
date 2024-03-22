@@ -7,7 +7,7 @@
 
 module github.com/SAP/go-ase
 
-replace github.com/SAP/go-dblib latest => github.com/newrelic-experimental/go-dblib latest
+replace github.com/SAP/go-dblib v0.0.0-20220825075032-c1f3f4d6e7b3 => github.com/newrelic-experimental/go-dblib latest
 
 go 1.19
 
