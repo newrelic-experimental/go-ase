@@ -13,13 +13,14 @@
 // the placeholders within an SQL statement, rather than driver.Values.
 //
 // E.g.:
-//   if rows, result, err := conn.GenericExec(ctx, "select * from table where a = ?", driver.Value{5}); err != nil {
-//     return err
-//   }
 //
-//   if rows, result, err := conn.DirectExec(ctx, "select * from table where a = ?", 5); err != nil {
-//     return err
-//   }
+//	if rows, result, err := conn.GenericExec(ctx, "select * from table where a = ?", driver.Value{5}); err != nil {
+//	  return err
+//	}
+//
+//	if rows, result, err := conn.DirectExec(ctx, "select * from table where a = ?", 5); err != nil {
+//	  return err
+//	}
 //
 // These methods are primarily useful when using stored procedures which
 // may return both rows and the number of affected rows.
@@ -34,9 +35,9 @@ import (
 	"io"
 	"log"
 
-	"github.com/SAP/go-ase"
-	"github.com/SAP/go-ase/examples"
 	"github.com/SAP/go-dblib/dsn"
+	"github.com/newrelic-experimental/go-ase"
+	"github.com/newrelic-experimental/go-ase/examples"
 )
 
 const (

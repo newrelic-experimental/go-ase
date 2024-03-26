@@ -32,7 +32,7 @@ func NewInfo() (*Info, error) {
 		return nil, fmt.Errorf("ase: error setting TDS defaults on info: %w", err)
 	}
 
-	info.AppName = "github.com/SAP/go-ase"
+	info.AppName = "github.com/newrelic-experimental/go-ase"
 
 	info.CursorCacheRows = 1000
 

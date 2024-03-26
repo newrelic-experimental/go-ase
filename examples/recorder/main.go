@@ -8,9 +8,9 @@
 // inspect a number of tds.EEDPackages received during a transaction.
 //
 // go-ase supports three ways to add hooks:
-//   1. driver-level
-//   2. connector-level
-//   3. connection-level
+//  1. driver-level
+//  2. connector-level
+//  3. connection-level
 //
 // Hooks at the driver-level receive EEDPackages from all connections
 // and are added by calling ase.AddEEDHooks.
@@ -31,8 +31,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/SAP/go-ase"
 	"github.com/SAP/go-dblib/tds"
+	"github.com/newrelic-experimental/go-ase"
 )
 
 const (

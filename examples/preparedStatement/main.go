@@ -13,9 +13,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/SAP/go-ase"
-	"github.com/SAP/go-ase/examples"
 	"github.com/SAP/go-dblib/dsn"
+	"github.com/newrelic-experimental/go-ase"
+	"github.com/newrelic-experimental/go-ase/examples"
 )
 
 const (
