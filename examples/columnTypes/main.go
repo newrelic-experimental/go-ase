@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/SAP/go-ase"
+	"github.com/newrelic-experimental/go-ase"
 	"github.com/newrelic-experimental/go-dblib/dsn"
 )
 

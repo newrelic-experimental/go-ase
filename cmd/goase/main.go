@@ -14,7 +14,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/SAP/go-ase"
+	"github.com/newrelic-experimental/go-ase"
 	"github.com/newrelic-experimental/go-dblib/dsn"
 	"github.com/newrelic-experimental/go-dblib/tds"
 	"github.com/spf13/pflag"

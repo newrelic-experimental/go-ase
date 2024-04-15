@@ -97,7 +97,7 @@ func Test(db *sql.DB) error {
 func rawProcess(driverConn interface{}) error {
 	conn, ok := driverConn.(*ase.Conn)
 	if !ok {
-		return errors.New("invalid driver, conn is not *github.com/SAP/go-ase.Conn")
+		return errors.New("invalid driver, conn is not *github.com/newrelic-experimental/go-ase.Conn")
 	}
 
 	// A cursor is opened explicitly through the .NewCursor command,
