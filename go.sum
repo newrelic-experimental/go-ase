@@ -1,5 +1,3 @@
-github.com/SAP/go-dblib v0.0.0-20230911064405-b779cef8f299 h1:wYLSoEyQC3E8ckHjUOSM9ay9IimmO/VtpiDPQpLm9NU=
-github.com/SAP/go-dblib v0.0.0-20230911064405-b779cef8f299/go.mod h1:jdFzhXzanm/uRvjygb+33EYEx17Jd+FywzKMI8x1ChA=
 github.com/chzyer/logex v1.2.1 h1:XHDu3E6q+gdHgsdTPH6ImJMIp436vR6MPtH8gP05QzM=
 github.com/chzyer/logex v1.2.1/go.mod h1:JLbx6lG2kDbNRFnfkgvh4eRJRPX1QCoOIWomwysCBrQ=
 github.com/chzyer/readline v1.5.1 h1:upd/6fQk4src78LMRzh5vItIt361/o4uq553V8B5sGI=

@@ -10,7 +10,6 @@ module github.com/newrelic-experimental/go-ase
 go 1.19
 
 require (
-	github.com/SAP/go-dblib v0.0.0-20230911064405-b779cef8f299
 	github.com/newrelic-experimental/go-dblib v0.0.0-20240326120206-5c0b06055eb2
 	github.com/spf13/pflag v1.0.5
 )
