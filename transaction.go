@@ -14,8 +14,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/newrelic-experimental/go-dblib"
-	"github.com/newrelic-experimental/go-dblib/tds"
+	"github.com/SAP/go-dblib"
+	"github.com/SAP/go-dblib/tds"
 )
 
 // Interface satisfaction checks.

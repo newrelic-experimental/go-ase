@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/newrelic-experimental/go-dblib/tds"
+	"github.com/SAP/go-dblib/tds"
 )
 
 func (stmt Stmt) recvDynAck(ctx context.Context) error {

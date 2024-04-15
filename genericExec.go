@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/newrelic-experimental/go-dblib"
-	"github.com/newrelic-experimental/go-dblib/tds"
+	"github.com/SAP/go-dblib"
+	"github.com/SAP/go-dblib/tds"
 )
 
 // DirectExec is a wrapper for GenericExec and meant to be used when

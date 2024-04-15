@@ -14,10 +14,10 @@ import (
 	"log"
 	"os"
 
+	"github.com/SAP/go-dblib/dsn"
+	"github.com/SAP/go-dblib/tds"
+	"github.com/SAP/go-dblib/term"
 	"github.com/newrelic-experimental/go-ase"
-	"github.com/newrelic-experimental/go-dblib/dsn"
-	"github.com/newrelic-experimental/go-dblib/tds"
-	"github.com/newrelic-experimental/go-dblib/term"
 
 	"github.com/spf13/pflag"
 )

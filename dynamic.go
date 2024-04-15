@@ -14,10 +14,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/newrelic-experimental/go-dblib"
-	"github.com/newrelic-experimental/go-dblib/asetypes"
-	"github.com/newrelic-experimental/go-dblib/namepool"
-	"github.com/newrelic-experimental/go-dblib/tds"
+	"github.com/SAP/go-dblib"
+	"github.com/SAP/go-dblib/asetypes"
+	"github.com/SAP/go-dblib/namepool"
+	"github.com/SAP/go-dblib/tds"
 )
 
 // Interface satisfaction checks.

@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/newrelic-experimental/go-dblib/namepool"
-	"github.com/newrelic-experimental/go-dblib/tds"
+	"github.com/SAP/go-dblib/namepool"
+	"github.com/SAP/go-dblib/tds"
 )
 
 var (

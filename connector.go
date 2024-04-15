@@ -12,7 +12,7 @@ import (
 	"database/sql/driver"
 	"fmt"
 
-	"github.com/newrelic-experimental/go-dblib/tds"
+	"github.com/SAP/go-dblib/tds"
 )
 
 // Interface satisfaction checks

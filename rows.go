@@ -15,7 +15,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/newrelic-experimental/go-dblib/tds"
+	"github.com/SAP/go-dblib/tds"
 )
 
 // baseRows is used to share common code between Rows and CursorRows.
