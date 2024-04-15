@@ -12,7 +12,7 @@ import (
 	"database/sql/driver"
 	"fmt"
 
-	"github.com/SAP/go-dblib/tds"
+	"github.com/newrelic-experimental/go-dblib/tds"
 )
 
 func (c Conn) language(ctx context.Context, query string) (driver.Rows, driver.Result, error) {

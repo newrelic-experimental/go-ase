@@ -11,8 +11,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/SAP/go-dblib/integration"
 	"github.com/newrelic-experimental/go-ase"
+	"github.com/newrelic-experimental/go-dblib/integration"
 )
 
 func CreateDropDatabase(info *ase.Info, databaseName string) (func() error, error) {

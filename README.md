@@ -47,11 +47,11 @@ For specifics on how to use `database/sql` please see the
 The command-line application `goase` can be `go install`ed:
 
 ```sh
-$ go install github.com/SAP/go-ase/cmd/goase@latest
-go: downloading github.com/SAP/go-ase v0.0.0-20210506093950-9af676a6bab4
+$ go install github.com/newrelic-experimental/go-ase/cmd/goase@latest
+go: downloading github.com/newrelic-experimental/go-ase v0.0.0-20210506093950-9af676a6bab4
 $ goase -h
 Usage of goase:
-      --appname string                   Application Name to transmit to ASE (default "github.com/SAP/go-ase")
+      --appname string                   Application Name to transmit to ASE (default "github.com/newrelic-experimental/go-ase")
       --channel-package-queue-size int   How many TDS packages can be queued in a TDS channel (default 100)
       --client-hostname string           Hostname to send to server (default "dev-ase-sles15sp1-ntnn-1")
       --cursor-cache-rows int            How many rows to cache at once when reading the result set of a cursor (default 1000)
@@ -82,7 +82,7 @@ package main
 
 import (
     "database/sql"
-    _ "github.com/SAP/go-ase"
+    _ "github.com/newrelic-experimental/go-ase"
 )
 
 func main() {
@@ -168,7 +168,7 @@ package main
 import (
     "database/sql"
 
-    "github.com/SAP/go-ase"
+    "github.com/newrelic-experimental/go-ase"
 )
 
 func main() {
@@ -206,7 +206,7 @@ Recognized values: string
 Sets the application name to the value. This can be used in ASE to
 determine which application opened a connection.
 
-Defaults to `database/sql driver github.com/SAP/go-ase/purego`.
+Defaults to `database/sql driver github.com/newrelic-experimental/go-ase/purego`.
 
 ##### network
 

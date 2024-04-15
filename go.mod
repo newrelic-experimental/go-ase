@@ -7,12 +7,11 @@
 
 module github.com/newrelic-experimental/go-ase
 
-replace github.com/SAP/go-dblib v0.0.0-20220825075032-c1f3f4d6e7b3 => github.com/newrelic-experimental/go-dblib v0.0.0-20240321215801-9bfaa7c8a147
-
 go 1.19
 
 require (
-	github.com/SAP/go-dblib v0.0.0-20220825075032-c1f3f4d6e7b3
+	github.com/SAP/go-dblib v0.0.0-20230911064405-b779cef8f299
+	github.com/newrelic-experimental/go-dblib v0.0.0-20240326120206-5c0b06055eb2
 	github.com/spf13/pflag v1.0.5
 )
 

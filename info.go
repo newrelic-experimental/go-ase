@@ -10,8 +10,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/SAP/go-dblib/dsn"
-	"github.com/SAP/go-dblib/tds"
+	"github.com/newrelic-experimental/go-dblib/dsn"
+	"github.com/newrelic-experimental/go-dblib/tds"
 )
 
 type Info struct {
