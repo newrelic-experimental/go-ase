@@ -18,9 +18,8 @@ import (
 	"log"
 	"math"
 
-	"github.com/SAP/go-dblib/dsn"
-	"github.com/SAP/go-dblib/integration"
-	"github.com/newrelic-experimental/go-ase"
+	"github.com/newrelic-experimental/go-dblib/dsn"
+	"github.com/newrelic-experimental/go-dblib/integration"
 )
 
 const (

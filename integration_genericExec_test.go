@@ -4,6 +4,7 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
+//go:build integration
 // +build integration
 
 package ase
@@ -15,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SAP/go-dblib/integration"
+	"github.com/newrelic-experimental/go-dblib/integration"
 )
 
 func TestDirectExec(t *testing.T) {

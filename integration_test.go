@@ -17,7 +17,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/SAP/go-dblib/integration"
+	"github.com/newrelic-experimental/go-dblib/integration"
 )
 
 func TestMain(m *testing.M) {

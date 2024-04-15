@@ -101,5 +101,5 @@ Contributions must fulfill following requirements to be accepted:
 [dco]: https://developercertificate.org/
 [effective-go]: https://golang.org/doc/effective_go.html
 [go-ase]: https://github.com/SAP/go-ase
-[go-dblib]: https://github.com/SAP/go-dblib
+[go-dblib]: https://github.com/newrelic-experimental/go-dblib
 [issues]: https://github.com/SAP/go-ase/issues

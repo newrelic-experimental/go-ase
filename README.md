@@ -31,7 +31,7 @@ A cgo implementation can be found [here][cgo-ase].
 
 The go driver has no special requirements other than Go standard
 library and the third part modules listed in `go.mod`, e.g.
-`github.com/SAP/go-dblib`.
+`github.com/newrelic-experimental/go-dblib`.
 
 ## Download and Installation
 
@@ -381,7 +381,7 @@ Copyright (c) 2019-2020 SAP SE or an SAP affiliate company. All rights reserved.
 This file is licensed under the Apache License 2.0 except as noted otherwise in the [LICENSE file](LICENSES).
 
 [cgo-ase]: https://github.com/SAP/cgo-ase
-[go-dblib]: https://github.com/SAP/go-dblib
+[go-dblib]: https://github.com/newrelic-experimental/go-dblib
 [go]: https://golang.org/
 [issues]: https://github.com/SAP/go-ase/issues
 [pkg-database-sql]: https://golang.org/pkg/database/sql

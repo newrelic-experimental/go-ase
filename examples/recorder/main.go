@@ -31,8 +31,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/SAP/go-dblib/tds"
-	"github.com/newrelic-experimental/go-ase"
+	"github.com/SAP/go-ase"
 )
 
 const (

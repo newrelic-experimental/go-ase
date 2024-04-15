@@ -10,8 +10,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/SAP/go-dblib/dsn"
-	"github.com/SAP/go-dblib/tds"
+	"github.com/newrelic-experimental/go-dblib/dsn"
+	"github.com/newrelic-experimental/go-dblib/tds"
 )
 
 type Info struct {
@@ -24,7 +24,7 @@ type Info struct {
 	CursorCacheRows int `json:"cursor-cache-rows" doc:"How many rows to cache at once when reading the result set of a cursor"`
 }
 
-// NewInfo returns a bare Info for github.com/SAP/go-dblib/dsn with defaults.
+// NewInfo returns a bare Info for github.com/newrelic-experimental/go-dblib/dsn with defaults.
 func NewInfo() (*Info, error) {
 	info := new(Info)
 
@@ -32,7 +32,7 @@ func NewInfo() (*Info, error) {
 		return nil, fmt.Errorf("ase: error setting TDS defaults on info: %w", err)
 	}
 
-	info.AppName = "github.com/newrelic-experimental/go-ase"
+	info.AppName = "replace github.com/newrelic-experimental/go-dblib => github.com/newrelic-experimental/go-dblib <newVersion>\n"
 
 	info.CursorCacheRows = 1000
 

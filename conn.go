@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/SAP/go-dblib/asetypes"
-	"github.com/SAP/go-dblib/tds"
+	"github.com/newrelic-experimental/go-dblib/asetypes"
+	"github.com/newrelic-experimental/go-dblib/tds"
 )
 
 // Interface satisfaction checks
