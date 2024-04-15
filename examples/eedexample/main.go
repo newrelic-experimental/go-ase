@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/SAP/go-ase/examples"
+	"github.com/newrelic-experimental/go-ase/examples"
 	"github.com/newrelic-experimental/go-dblib/dsn"
 	"github.com/newrelic-experimental/go-dblib/tds"
 )

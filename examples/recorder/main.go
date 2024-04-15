@@ -30,8 +30,6 @@ import (
 	"fmt"
 	"log"
 	"sync"
-
-	"github.com/SAP/go-ase"
 )
 
 const (

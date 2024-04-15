@@ -35,7 +35,6 @@ import (
 	"io"
 	"log"
 
-	"github.com/SAP/go-ase"
 	"github.com/newrelic-experimental/go-dblib/dsn"
 )
 

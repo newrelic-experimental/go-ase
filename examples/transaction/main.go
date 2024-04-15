@@ -14,7 +14,6 @@ import (
 	"log"
 	"math"
 
-	"github.com/SAP/go-ase"
 	"github.com/newrelic-experimental/go-dblib/dsn"
 )
 

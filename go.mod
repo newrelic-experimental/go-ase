@@ -5,7 +5,7 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/SAP/go-ase
+module github.com/newrelic-experimental/go-ase
 
 go 1.19
 
