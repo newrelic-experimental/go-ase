@@ -98,6 +98,9 @@ func NewConnWithHooks(ctx context.Context, info *Info, envChangeHooks []tds.EnvC
 	}
 
 	loginConfig.AppName = info.AppName
+	if len(loginConfig.AppName) > 30 {
+		loginConfig.AppName = loginConfig.AppName[:30]
+	}
 
 	if err := conn.Channel.Login(ctx, loginConfig); err != nil {
 		conn.Close()
